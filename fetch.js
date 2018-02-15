@@ -2,7 +2,8 @@
   'use strict';
 
   if (self.fetch) {
-    return
+    // Remove this to be able to patch native fetch with abortable fetch
+    // return
   }
 
   var support = {
